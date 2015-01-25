@@ -3,7 +3,7 @@
     <strong><%= prayer.title %></strong>
   <% end %>
 
-  <p><%= prayer.body %>
+  <p><%= simple_format(prayer.body) %>
 
   <div class="controls">
     <% if can? :update, prayer %>
