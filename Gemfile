@@ -1,4 +1,3 @@
-ruby "2.2.0"
 source 'https://rubygems.org'
 
 
@@ -49,3 +48,4 @@ gem 'simple_form'
 gem 'cancancan'
 
 gem 'rails_12factor', group: :production
+gem 'puma'
