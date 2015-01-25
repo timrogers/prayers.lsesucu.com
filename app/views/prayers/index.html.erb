@@ -1,2 +1,13 @@
-<h1>Prayers#index</h1>
-<p>Find me in app/views/prayers/index.html.erb</p>
+<% content_for(:title) { "Prayers" } %>
+
+<h2>Prayers</h2>
+
+<% @prayers.each do |prayer| %>
+  <%= render partial: "prayer", locals: { prayer: prayer } %>
+<% end %>
+
+<% unless @prayers.any? %>
+  <div class="alert">
+    <strong>Oops!</strong> There are no prayer requests right now.
+  </div>
+<% end %>

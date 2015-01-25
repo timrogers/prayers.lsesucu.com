@@ -1,0 +1,22 @@
+<div class="prayer">
+  <% if prayer.title? %>
+    <strong><%= prayer.title %></strong>
+  <% end %>
+
+  <p><%= prayer.body %>
+
+  <div class="controls">
+    <% if can? :update, prayer %>
+      <div class="float-left">
+      <%= link_to "Edit", edit_prayer_path(prayer) %>
+      <%= link_to "Delete", prayer_path(prayer), method: :delete, data: {confirm: "Are you sure you want to delete your prayer request?" } %>
+      </div>
+    <% end %>
+
+    <div class="float-right">
+      <%= link_to "by #{prayer.author}, #{time_ago_in_words(prayer.created_at)} ago", prayer_path(prayer) %>
+    </div>
+
+    <div class="clearfix"></div>
+  </div>
+</div>

@@ -1,2 +1,5 @@
-<h1>Prayers#new</h1>
-<p>Find me in app/views/prayers/new.html.erb</p>
+<% content_for(:title) { "New Prayer" } %>
+
+<h2>New prayer</h2>
+
+<%= render partial: "form" %>

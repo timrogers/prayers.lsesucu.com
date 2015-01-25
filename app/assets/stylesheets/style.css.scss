@@ -100,3 +100,18 @@ footer p {
   border: 1px solid #faebcc;
   border-radius: 4px;
 }
+
+.prayer {
+  width: 100%;
+  color: #31708f;
+  background-color: #d9edf7;
+  padding: 15px;
+  margin: 10px auto;
+  border: 1px solid #bce8f1;
+
+  .controls {
+    font-size: 0.7em;
+    opacity: 0.8;
+    a { text-decoration: none; }
+  }
+}

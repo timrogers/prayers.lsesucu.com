@@ -1,2 +1,3 @@
-<h1>Prayers#show</h1>
-<p>Find me in app/views/prayers/show.html.erb</p>
+<% content_for(:title) { @prayer.title || "Prayer from #{@prayer.author}"} %>
+
+<%= render partial: "prayer", locals: { prayer: @prayer } %>
