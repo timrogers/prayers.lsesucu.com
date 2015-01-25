@@ -1,0 +1,102 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  width: 95%;
+  margin: auto;
+}
+
+
+#logo {
+  width: 175px;
+  height: 100px;
+  background-image: url(image_path('logo.png'));
+  background-size: 175px 100px;
+  margin: auto;
+}
+
+ul#main-menu {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+}
+
+#social {
+  float: left;
+}
+
+h2 {
+  font-family: 'Roboto Slab', serif;
+}
+
+a {
+  color: inherit;
+}
+
+hr {
+  color: #b0a6a6;
+  opacity: 0.6;
+  margin: 1.25em 0;
+}
+
+#social-media-icons {
+  margin: 0em 0;
+  text-align: center;
+}
+
+header #social-media-icons {
+  float: right;
+}
+
+footer p {
+  margin: 0;
+}
+
+#social-media-icons img {
+  margin: 0 0.5em;
+  width: 32px;
+}
+
+#social-media-icons img:last-child {
+  margin-right: 0;
+}
+
+.content a {
+  color: #000;
+}
+
+.content img {
+  max-width: 100%;
+  margin: auto;
+}
+
+.committee {
+  margin: 2em auto;
+}
+
+.committee .person {
+  margin: auto;
+  clear: both;
+}
+
+.committee .person img {
+  float: left;
+  margin: 0 2em 2em 0;
+  width: 150px;
+}
+
+.committee .person p {
+  float: left;
+  line-height: 1.5em;
+}
+
+.alert, .notice {
+  width: 100%;
+  background-color: #fcf8e3;
+  color: #8a6d3b;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #faebcc;
+  border-radius: 4px;
+}

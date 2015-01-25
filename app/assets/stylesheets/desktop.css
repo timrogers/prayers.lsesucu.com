@@ -1,0 +1,75 @@
+@media only screen and (min-width: 900px) {
+  .container {
+    width: 70%;
+    max-width: 1000px;
+    margin: 2em auto;
+  }
+
+  #main-menu {
+    float: right;
+    margin: 2em 0 !important;
+    width: none;
+  }
+
+  #logo {
+    float: left;
+  }
+
+  #social {
+    float: left;
+  }
+
+  ul#main-menu li {
+    display: inline;
+    list-style-type: none;
+    color: #000;
+    text-transform: uppercase;
+  }
+
+  ul#main-menu li a {
+    background-color: #b0a6a6;
+    color: #FFF;
+    padding: 1em 0.75em;
+    margin: 0 0.25em;
+    text-decoration: none;
+  }
+
+  ul#main-menu li a:last-child {
+    margin-right: 0;
+  }
+
+  ul#main-menu li a:active {
+    color: #b0a6a6 !important;
+    background-color: #FFF !important;
+  }
+
+  .content--two-columns {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+
+    -webkit-column-gap: 20px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 20px; /* Firefox */
+    column-gap: 20px;
+  }
+
+  .content--three-columns {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+
+    -webkit-column-gap: 15px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 15px; /* Firefox */
+    column-gap: 15px;
+  }
+
+  .content--two-columns p:first-child, .content--three-columns p:first-child {
+    margin: 0;
+  }
+
+  img.img-max-500px-width {
+    max-width: 500px;
+    margin: auto;
+    display: block;
+  }
+}

@@ -1,0 +1,22 @@
+.clearfix {
+  clear: both;
+  overflow: auto;
+  zoom: 1;
+}
+
+.center {
+  text-align: center;
+}
+
+img.center {
+  margin: auto;
+  display: block;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
